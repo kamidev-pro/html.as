@@ -1,0 +1,107 @@
+body {
+  text-align: center;
+  margin-bottom: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-image: url('/gif background techn.png'); /* Replace with your image path */
+  background-size: cover; /* Ensures the image fills the screen */
+  background-position: center; /* Centers the image */
+  background-repeat: repeat; /* Allows the image to keep repeating */
+}
+.main{
+    background-color:White;
+     color:black;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 10px;
+  padding: 10px;
+}
+.all{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.box1{
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  width: 270px;
+  min-height: 220px;
+  max-height: 220px;
+  text-align: center;
+  border-radius: 8px;
+  margin: 10px;
+  flex: 1 1 220px;
+  background:url('download.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat:repeat;
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+}
+.box2{
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  width: 270px;
+  min-height: 220px;
+  max-height: 220px;
+  text-align: center;
+  border-radius: 8px;
+  margin: 10px;
+  flex: 1 1 220px;
+  background:url('Screenshot\ 2025-07-06\ 012306.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat:repeat;
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.anotherbox{
+  background: url('v617-bb-10-technology.jpg') center center no-repeat;
+  background-size: 180px 120px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  width: 270px;
+  min-height: 220px;
+  max-height: 220px;
+  text-align: center;
+  border-radius: 8px;
+  margin: 10px;
+  flex: 1 1 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.box1:hover, .box2:hover, .anotherbox:hover {
+  transform: scale(1.08);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+  z-index: 2;
+}
+.p{
+ text-align: center;
+ font-family:'Courier New', Courier, monospace
+
+}
+
+.blue{
+    color:#ffffff
+}
+
